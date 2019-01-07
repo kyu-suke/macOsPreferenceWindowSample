@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04416A0721E3ADA300422D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416A0621E3ADA300422D4A /* AppDelegate.swift */; };
+		04416A0921E3ADA300422D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416A0821E3ADA300422D4A /* ViewController.swift */; };
+		04416A0B21E3ADA400422D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04416A0A21E3ADA400422D4A /* Assets.xcassets */; };
+		04416A0E21E3ADA400422D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04416A0C21E3ADA400422D4A /* Main.storyboard */; };
+		04416A1A21E3ADA400422D4A /* preferenceWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416A1921E3ADA400422D4A /* preferenceWindowTests.swift */; };
+		04416A2521E3ADA400422D4A /* preferenceWindowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416A2421E3ADA400422D4A /* preferenceWindowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04416A1621E3ADA400422D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044169FB21E3ADA300422D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04416A0221E3ADA300422D4A;
+			remoteInfo = preferenceWindow;
+		};
+		04416A2121E3ADA400422D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044169FB21E3ADA300422D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04416A0221E3ADA300422D4A;
+			remoteInfo = preferenceWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04416A0321E3ADA300422D4A /* macosTitlebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macosTitlebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04416A0621E3ADA300422D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04416A0821E3ADA300422D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04416A0A21E3ADA400422D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04416A0D21E3ADA400422D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04416A0F21E3ADA400422D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04416A1021E3ADA400422D4A /* macosTitlebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macosTitlebar.entitlements; sourceTree = "<group>"; };
+		04416A1521E3ADA400422D4A /* macosTitlebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macosTitlebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04416A1921E3ADA400422D4A /* preferenceWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferenceWindowTests.swift; sourceTree = "<group>"; };
+		04416A1B21E3ADA400422D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04416A2021E3ADA400422D4A /* macosTitlebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macosTitlebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04416A2421E3ADA400422D4A /* preferenceWindowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferenceWindowUITests.swift; sourceTree = "<group>"; };
+		04416A2621E3ADA400422D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04416A0021E3ADA300422D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1221E3ADA400422D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1D21E3ADA400422D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044169FA21E3ADA300422D4A = {
+			isa = PBXGroup;
+			children = (
+				04416A0521E3ADA300422D4A /* macosTitlebar */,
+				04416A1821E3ADA400422D4A /* macosTitlebarTests */,
+				04416A2321E3ADA400422D4A /* macosTitlebarUITests */,
+				04416A0421E3ADA300422D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04416A0421E3ADA300422D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04416A0321E3ADA300422D4A /* macosTitlebar.app */,
+				04416A1521E3ADA400422D4A /* macosTitlebarTests.xctest */,
+				04416A2021E3ADA400422D4A /* macosTitlebarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04416A0521E3ADA300422D4A /* macosTitlebar */ = {
+			isa = PBXGroup;
+			children = (
+				04416A0621E3ADA300422D4A /* AppDelegate.swift */,
+				04416A0821E3ADA300422D4A /* ViewController.swift */,
+				04416A0A21E3ADA400422D4A /* Assets.xcassets */,
+				04416A0C21E3ADA400422D4A /* Main.storyboard */,
+				04416A0F21E3ADA400422D4A /* Info.plist */,
+				04416A1021E3ADA400422D4A /* macosTitlebar.entitlements */,
+			);
+			path = macosTitlebar;
+			sourceTree = "<group>";
+		};
+		04416A1821E3ADA400422D4A /* macosTitlebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				04416A1921E3ADA400422D4A /* preferenceWindowTests.swift */,
+				04416A1B21E3ADA400422D4A /* Info.plist */,
+			);
+			path = macosTitlebarTests;
+			sourceTree = "<group>";
+		};
+		04416A2321E3ADA400422D4A /* macosTitlebarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04416A2421E3ADA400422D4A /* preferenceWindowUITests.swift */,
+				04416A2621E3ADA400422D4A /* Info.plist */,
+			);
+			path = macosTitlebarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04416A0221E3ADA300422D4A /* macosTitlebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04416A2921E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebar" */;
+			buildPhases = (
+				044169FF21E3ADA300422D4A /* Sources */,
+				04416A0021E3ADA300422D4A /* Frameworks */,
+				04416A0121E3ADA300422D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macosTitlebar;
+			productName = preferenceWindow;
+			productReference = 04416A0321E3ADA300422D4A /* macosTitlebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04416A1421E3ADA400422D4A /* macosTitlebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04416A2C21E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebarTests" */;
+			buildPhases = (
+				04416A1121E3ADA400422D4A /* Sources */,
+				04416A1221E3ADA400422D4A /* Frameworks */,
+				04416A1321E3ADA400422D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04416A1721E3ADA400422D4A /* PBXTargetDependency */,
+			);
+			name = macosTitlebarTests;
+			productName = preferenceWindowTests;
+			productReference = 04416A1521E3ADA400422D4A /* macosTitlebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04416A1F21E3ADA400422D4A /* macosTitlebarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04416A2F21E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebarUITests" */;
+			buildPhases = (
+				04416A1C21E3ADA400422D4A /* Sources */,
+				04416A1D21E3ADA400422D4A /* Frameworks */,
+				04416A1E21E3ADA400422D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04416A2221E3ADA400422D4A /* PBXTargetDependency */,
+			);
+			name = macosTitlebarUITests;
+			productName = preferenceWindowUITests;
+			productReference = 04416A2021E3ADA400422D4A /* macosTitlebarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044169FB21E3ADA300422D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = kyusuke;
+				TargetAttributes = {
+					04416A0221E3ADA300422D4A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					04416A1421E3ADA400422D4A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04416A0221E3ADA300422D4A;
+					};
+					04416A1F21E3ADA400422D4A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04416A0221E3ADA300422D4A;
+					};
+				};
+			};
+			buildConfigurationList = 044169FE21E3ADA300422D4A /* Build configuration list for PBXProject "macosTitlebar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044169FA21E3ADA300422D4A;
+			productRefGroup = 04416A0421E3ADA300422D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04416A0221E3ADA300422D4A /* macosTitlebar */,
+				04416A1421E3ADA400422D4A /* macosTitlebarTests */,
+				04416A1F21E3ADA400422D4A /* macosTitlebarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04416A0121E3ADA300422D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04416A0B21E3ADA400422D4A /* Assets.xcassets in Resources */,
+				04416A0E21E3ADA400422D4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1321E3ADA400422D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1E21E3ADA400422D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044169FF21E3ADA300422D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04416A0921E3ADA300422D4A /* ViewController.swift in Sources */,
+				04416A0721E3ADA300422D4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1121E3ADA400422D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04416A1A21E3ADA400422D4A /* preferenceWindowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04416A1C21E3ADA400422D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04416A2521E3ADA400422D4A /* preferenceWindowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04416A1721E3ADA400422D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04416A0221E3ADA300422D4A /* macosTitlebar */;
+			targetProxy = 04416A1621E3ADA400422D4A /* PBXContainerItemProxy */;
+		};
+		04416A2221E3ADA400422D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04416A0221E3ADA300422D4A /* macosTitlebar */;
+			targetProxy = 04416A2121E3ADA400422D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04416A0C21E3ADA400422D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04416A0D21E3ADA400422D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04416A2721E3ADA400422D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04416A2821E3ADA400422D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04416A2A21E3ADA400422D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macosTitlebar/macosTitlebar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = macosTitlebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		04416A2B21E3ADA400422D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macosTitlebar/macosTitlebar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = macosTitlebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		04416A2D21E3ADA400422D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = preferenceWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macosTitlebar.app/Contents/MacOS/macosTitlebar";
+			};
+			name = Debug;
+		};
+		04416A2E21E3ADA400422D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = preferenceWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macosTitlebar.app/Contents/MacOS/macosTitlebar";
+			};
+			name = Release;
+		};
+		04416A3021E3ADA400422D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = preferenceWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = preferenceWindow;
+			};
+			name = Debug;
+		};
+		04416A3121E3ADA400422D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UWUHZJABZN;
+				INFOPLIST_FILE = preferenceWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kyusuke.preferenceWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = preferenceWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044169FE21E3ADA300422D4A /* Build configuration list for PBXProject "macosTitlebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04416A2721E3ADA400422D4A /* Debug */,
+				04416A2821E3ADA400422D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04416A2921E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04416A2A21E3ADA400422D4A /* Debug */,
+				04416A2B21E3ADA400422D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04416A2C21E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04416A2D21E3ADA400422D4A /* Debug */,
+				04416A2E21E3ADA400422D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04416A2F21E3ADA400422D4A /* Build configuration list for PBXNativeTarget "macosTitlebarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04416A3021E3ADA400422D4A /* Debug */,
+				04416A3121E3ADA400422D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044169FB21E3ADA300422D4A /* Project object */;
+}
