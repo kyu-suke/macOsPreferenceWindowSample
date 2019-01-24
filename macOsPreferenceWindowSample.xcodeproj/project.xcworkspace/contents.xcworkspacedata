@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/kyusuke/Garage/swift/preferenceWindow/macosTitlebar.xcodeproj">
+      location = "self:macOsPreferenceWindowSample.xcodeproj">
    </FileRef>
 </Workspace>

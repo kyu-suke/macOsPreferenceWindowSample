@@ -1,14 +1,14 @@
 //
-//  preferenceWindowUITests.swift
-//  preferenceWindowUITests
+//  macOsPreferenceWindowSampleUITests.swift
+//  macOsPreferenceWindowSampleUITests
 //
-//  Created by kyusuke on 2019/01/08.
-//  Copyright © 2019 kyusuke. All rights reserved.
+//  Created by 金岡 勇佑 on 2019/01/24.
+//  Copyright © 2019 a. All rights reserved.
 //
 
 import XCTest
 
-class preferenceWindowUITests: XCTestCase {
+class macOsPreferenceWindowSampleUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

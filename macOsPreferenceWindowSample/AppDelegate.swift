@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  preferenceWindow
+//  macOsPreferenceWindowSample
 //
-//  Created by kyusuke on 2019/01/08.
-//  Copyright © 2019 kyusuke. All rights reserved.
+//  Created by 金岡 勇佑 on 2019/01/24.
+//  Copyright © 2019 a. All rights reserved.
 //
 
 import Cocoa
