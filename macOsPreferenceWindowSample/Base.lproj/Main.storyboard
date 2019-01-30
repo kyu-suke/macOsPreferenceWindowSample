@@ -678,11 +678,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="macOsPreferenceWindowSample" customModuleProvider="target"/>
-=======
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="macosTitlebar" customModuleProvider="target"/>
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -691,11 +687,7 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-=======
-                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="macosTitlebar" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -705,15 +697,11 @@
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
-                    <connections>
-                        <segue destination="HSf-hW-vO1" kind="relationship" relationship="window.shadowedContentViewController" id="xsx-5C-pIT"/>
-                    </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
         <!--Window Controller-->
         <scene sceneID="FRa-dT-KoG">
             <objects>
@@ -746,24 +734,10 @@
                     </tabViewItems>
                     <viewControllerTransitionOptions key="transitionOptions" allowUserInteraction="YES"/>
                     <tabView key="tabView" type="noTabsNoBorder" id="pMo-t8-abo">
-=======
-        <!--Tab Controller-->
-        <scene sceneID="1NS-L0-RxE">
-            <objects>
-                <tabViewController selectedTabViewItemIndex="0" tabStyle="toolbar" id="HSf-hW-vO1" customClass="TabController" customModule="macosTitlebar" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabViewItems>
-                        <tabViewItem identifier="" image="NSInfo" id="Cwd-sd-jvT"/>
-                        <tabViewItem identifier="" image="NSUser" id="ggr-55-7vI"/>
-                        <tabViewItem image="NSAdvanced" id="zsC-1t-aT9"/>
-                    </tabViewItems>
-                    <viewControllerTransitionOptions key="transitionOptions" allowUserInteraction="YES"/>
-                    <tabView key="tabView" type="noTabsNoBorder" id="vUC-4Q-8J7">
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <font key="font" metaFont="message"/>
                         <connections>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                             <outlet property="delegate" destination="aIc-SO-ZFC" id="fYx-hJ-K4a"/>
                         </connections>
                     </tabView>
@@ -790,41 +764,12 @@
                                 <rect key="frame" x="-2" y="0.0" width="454" height="402"/>
                                 <textFieldCell key="cell" selectable="YES" title="this is reset" id="jNc-y1-V7q">
                                     <font key="font" metaFont="system" size="113"/>
-=======
-                            <outlet property="delegate" destination="HSf-hW-vO1" id="B6m-u8-JmD"/>
-                        </connections>
-                    </tabView>
-                    <connections>
-                        <outlet property="tabView" destination="vUC-4Q-8J7" id="98Z-Ih-Hv0"/>
-                        <segue destination="OBa-6E-chl" kind="relationship" relationship="tabItems" id="rmD-QQ-ebZ"/>
-                        <segue destination="BvL-9B-w3U" kind="relationship" relationship="tabItems" id="rJa-PN-LIh"/>
-                        <segue destination="5om-7k-vPt" kind="relationship" relationship="tabItems" id="fZN-Ub-4LM"/>
-                    </connections>
-                </tabViewController>
-                <customObject id="YsL-MA-SHJ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="207" y="729"/>
-        </scene>
-        <!--info-->
-        <scene sceneID="XAI-bm-iij">
-            <objects>
-                <viewController title="info" id="OBa-6E-chl" sceneMemberID="viewController">
-                    <view key="view" id="Kft-cv-dez">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="153"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="IbD-nO-B7l">
-                                <rect key="frame" x="-2" y="0.0" width="454" height="153"/>
-                                <textFieldCell key="cell" selectable="YES" title="sss lskjdflajsdfj sldkjfalsjf laskjdfla alsdkjflas laksdjflajs lsakdjflkaj laksdjf " id="ahC-jV-FJu">
-                                    <font key="font" usesAppearanceFont="YES"/>
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                         <constraints>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                             <constraint firstItem="cJs-Ko-wJY" firstAttribute="leading" secondItem="Gom-BX-ux2" secondAttribute="leading" id="6R1-Rk-0GG"/>
                             <constraint firstAttribute="trailing" secondItem="cJs-Ko-wJY" secondAttribute="trailing" id="cV1-p1-hbr"/>
                             <constraint firstItem="cJs-Ko-wJY" firstAttribute="top" secondItem="Gom-BX-ux2" secondAttribute="top" id="eQ1-pb-Epg"/>
@@ -848,38 +793,12 @@
                                 <rect key="frame" x="-2" y="0.0" width="454" height="172"/>
                                 <textFieldCell key="cell" selectable="YES" title="this is advanced" id="VY7-pK-wYZ">
                                     <font key="font" metaFont="system" size="72"/>
-=======
-                            <constraint firstItem="IbD-nO-B7l" firstAttribute="leading" secondItem="Kft-cv-dez" secondAttribute="leading" id="96Z-2w-3Ka"/>
-                            <constraint firstAttribute="bottom" secondItem="IbD-nO-B7l" secondAttribute="bottom" id="EAM-Sh-0Lo"/>
-                            <constraint firstItem="IbD-nO-B7l" firstAttribute="top" secondItem="Kft-cv-dez" secondAttribute="top" id="Skw-Jg-6XQ"/>
-                            <constraint firstAttribute="trailing" secondItem="IbD-nO-B7l" secondAttribute="trailing" id="gd8-Pg-uaj"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <customObject id="57f-pp-JgN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="856" y="296"/>
-        </scene>
-        <!--user-->
-        <scene sceneID="t3A-Uu-3AA">
-            <objects>
-                <viewController title="user" id="BvL-9B-w3U" sceneMemberID="viewController">
-                    <view key="view" id="gQ3-sO-ujg">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="17"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="BCI-aP-T0y">
-                                <rect key="frame" x="-2" y="0.0" width="454" height="17"/>
-                                <textFieldCell key="cell" selectable="YES" title="awsedrftgyhuji" id="ynC-m1-faL">
-                                    <font key="font" usesAppearanceFont="YES"/>
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                         <constraints>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                             <constraint firstItem="Mgi-X3-avP" firstAttribute="leading" secondItem="ETF-mo-hGp" secondAttribute="leading" id="D9I-sg-L7F"/>
                             <constraint firstItem="Mgi-X3-avP" firstAttribute="top" secondItem="ETF-mo-hGp" secondAttribute="top" id="TYK-pB-Kfm"/>
                             <constraint firstAttribute="bottom" secondItem="Mgi-X3-avP" secondAttribute="bottom" id="Tyo-gL-tJs"/>
@@ -890,27 +809,11 @@
                 <customObject id="Q1f-Il-nH7" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1166" y="667"/>
-=======
-                            <constraint firstItem="BCI-aP-T0y" firstAttribute="top" secondItem="gQ3-sO-ujg" secondAttribute="top" id="AHE-AG-gZt"/>
-                            <constraint firstAttribute="trailing" secondItem="BCI-aP-T0y" secondAttribute="trailing" id="ECp-tB-3Lo"/>
-                            <constraint firstItem="BCI-aP-T0y" firstAttribute="leading" secondItem="gQ3-sO-ujg" secondAttribute="leading" id="mfm-We-4Ra"/>
-                            <constraint firstAttribute="bottom" secondItem="BCI-aP-T0y" secondAttribute="bottom" id="qCR-Vq-L37"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <customObject id="6SD-Qb-bDf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="856" y="541"/>
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="macOsPreferenceWindowSample" customModuleProvider="target" sceneMemberID="viewController">
-=======
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="macosTitlebar" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -947,51 +850,11 @@
                 </viewController>
                 <customObject id="tdZ-Bb-cey" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD:macOsPreferenceWindowSample/Base.lproj/Main.storyboard
             <point key="canvasLocation" x="1166" y="456"/>
         </scene>
     </scenes>
     <resources>
         <image name="advanced" width="516" height="516"/>
-=======
-            <point key="canvasLocation" x="-705" y="729"/>
-        </scene>
-        <!--advanced-->
-        <scene sceneID="oh3-A3-rTf">
-            <objects>
-                <viewController title="advanced" id="5om-7k-vPt" sceneMemberID="viewController">
-                    <view key="view" id="bSf-jB-b0K">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="78"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="uEI-5b-bxN">
-                                <rect key="frame" x="-2" y="0.0" width="454" height="78"/>
-                                <textFieldCell key="cell" selectable="YES" id="G4Y-yk-OeP">
-                                    <font key="font" usesAppearanceFont="YES"/>
-                                    <string key="title">あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい うううううううううううううううううううううううううううううううううううううううううううう</string>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="uEI-5b-bxN" secondAttribute="bottom" id="5M6-Kb-aZX"/>
-                            <constraint firstAttribute="trailing" secondItem="uEI-5b-bxN" secondAttribute="trailing" id="RRD-Yj-kxG"/>
-                            <constraint firstItem="uEI-5b-bxN" firstAttribute="leading" secondItem="bSf-jB-b0K" secondAttribute="leading" id="Xwl-lA-hF7"/>
-                            <constraint firstItem="uEI-5b-bxN" firstAttribute="top" secondItem="bSf-jB-b0K" secondAttribute="top" id="zDi-lA-3lh"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <customObject id="dBA-Zm-YK1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="856" y="805.5"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="NSAdvanced" width="128" height="128"/>
-        <image name="NSInfo" width="128" height="128"/>
-        <image name="NSUser" width="128" height="128"/>
->>>>>>> master:macosTitlebar/Base.lproj/Main.storyboard
         <image name="general" width="516" height="516"/>
         <image name="reset" width="516" height="516"/>
     </resources>
